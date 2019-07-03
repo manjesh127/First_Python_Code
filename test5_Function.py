@@ -66,4 +66,15 @@
 # print(imoji_converter(mess))
 
 
-# ==============================>>> exception <<<=================================
+# ==============================>>> exception handling <<<=================================
+# age = int(input("age : "))
+# print(age)]
+try:
+    age = int(input("enter age : "))
+    income = 2000
+    risk = income/age
+    print(age)
+except ZeroDivisionError:
+    print("age cant be zero")
+except ValueError:
+    print("invalid value")
